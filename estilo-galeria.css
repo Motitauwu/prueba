@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.galeria {
+  padding: 10px 6px;
+  float: left;
+  width: 25%;
+}
+
+.imagen {
+  border: 1px solid lightgray;
+}
+
+.imagen:hover {
+  border: 1px solid gray;
+  background-color: lightgray;
+}
+
+.imagen img {
+  width: 100%;
+  height: auto;
+}
+
+.descripcion {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .galeria {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .galeria {
+    width: 100%;
+  }
+}
